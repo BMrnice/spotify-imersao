@@ -40,6 +40,7 @@
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
+    font-family: "DM Sans",sans-serif;
 }
 
 .sidebar nav ul li .fa {
@@ -160,7 +161,8 @@
 }
 
 .sidebar .cookies a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+
 }
 
 .languages .languages__button {
