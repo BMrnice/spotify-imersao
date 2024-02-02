@@ -1,9 +1,12 @@
 /* HEADER */
 .main-container {
+  display: flex;
+  justify-content: center;
   max-width: 80vw;
   height: 100vh;
-  margin-left: 320px;
+  margin-left: 100px;
   margin-right: 56px;
+  margin-top: 100px;
 }
 
 /* DISPLAY * TOTAL e vamos passar rapidamente por cada um deles
@@ -28,6 +31,18 @@ table, table-row, table-cell: Esses valores de display são usados para criar la
 
 none: Um elemento com display: none é completamente removido do fluxo de layout e não é renderizado na tela.
 */
+
+.imagem__esboco > img{
+  width: 800px;
+  height: 550px;
+  margin-left: 10px;
+  border: 3px solid rgb(121, 102, 231);
+}
+p {
+  margin-top: 25px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
 .header__navigation {
   display: flex;
   /* ESSES detalhes que tem dentro do display flex, mostra no navegador como fica */
